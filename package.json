@@ -2,8 +2,8 @@
   "name": "jsfun",
   "private": true,
   "scripts": {
-    "lint:check": "prettier --check .",
-    "lint:fix": "prettier --write .",
+    "lint:prettier:check": "prettier --check .",
+    "lint:prettier:fix": "prettier --write .",
     "prepare": "husky",
     "commit": "cz"
   },
